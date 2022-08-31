@@ -58,7 +58,7 @@ workbook3 = openpyxl.load_workbook(r'/home/gu/桌面/Python/venv/学习/venv/自
 sheet3 = workbook3['黑屏']
 sheet3.insert_rows(idx=1, amount=3)
 sheet3.merge_cells(start_row=1, end_row=3, start_column=1, end_column=13)
-sheet3['A1'] = '韵达星盘驻场巡检'
+sheet3['A1'] = ''
 # 设置对齐样式
 ali = Alignment(horizontal='center', vertical="center", wrap_text=True)
 sheet3['A1'].alignment = ali
